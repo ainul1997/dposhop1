@@ -1,0 +1,48 @@
+/* google font start */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/* google font end */
+body{
+    font-family: 'Merriweather', serif;
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+}
+.margin-all{
+    margin-left: 200px;
+}
+.header{
+    
+    width: 900px;
+    height: 90px;
+    background-color: white;
+}
+.dpo-products{
+    padding: 30px 0px 0px 30px;
+}
+.side-continar{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    height: 400px;
+    background-color: white;
+}
+.start-section-first-side{
+    height: 300px;
+    width: 303px;
+    margin-left: 30px;
+    margin-top: 49px;
+    line-height:35px;
+}
+.start-section-first-side a{
+    background-color: brown;
+    color: white;
+    padding: 11px;
+    border-radius: 20px;
+    
+    text-decoration: none;
+
+}
+.start-section-last-side img{
+    width: 300px;
+    height: 320px;
+}
