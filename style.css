@@ -177,28 +177,43 @@ footer{
 /* media quarig */
 /* ------------------ */
 @media only screen and (max-width:412px)  {
+    .header{
+        width: 376px;
+    }
     .dpo-products{
-        padding-left: 37%;
+        padding-left: 12%;
     }
     .side-continar{
         grid-template-columns: repeat(1,1fr);
-        margin-left: 31%;
+        
         display: grid;
         height: auto;
+        width: 350px;
+        padding-left: 7%;
     }
+
+    
+    .popular-continar{
+        width: 380px;
+        padding-top: 44px;
+        height: 5150px;
+    }
+  
+    
     .prodect-continar{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10%;
     }
     .prodect-items{
-        margin-left: 55%;
+       
+    }
+    .see-more-section{
+        width: 380px;
+        
     }
     footer{
-        display: grid;
-        justify-self: start;
-        margin-top: 316%;
-        width: 302px;
-        margin-left: 35%;
+        width: 380px;
         height: 200px;
     }
 
@@ -206,12 +221,11 @@ footer{
         color:white;
         margin-left: 20px;
         border-radius: 50px;
-    }
-    
+    }   
 }
 
-@media only screen and (max-width:810px)  {
-    .dpo-products{
+/* @media only screen and (max-width:810px)  { */
+    /* .dpo-products{
         padding-left: 13%;
     }
     .side-continar{
@@ -219,23 +233,18 @@ footer{
         margin-left: 10%;
         display: grid;
         height: auto;
-        padding-left: 22%;
-    }
-    .prodect-continar{
+        /* padding-left: 22%; */
+    /* } */
+    /* .prodect-continar{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-left: 101px;
     }
     footer{
-        display: grid;
-        justify-self: start;
-        margin-top: 90%;
-        width: 743px;
-        margin-left: 12%;
-        height: 200px;
-    }
+        
+    } */
 
-    .footer a{
+    /* .footer a{
         color:white;
         margin-left: 20px;
         border-radius: 50px;
@@ -247,4 +256,4 @@ footer{
         padding-left: 33%;
     }
     
-}
+} */ 
